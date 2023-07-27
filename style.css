@@ -1,1 +1,35 @@
+body{
+    background-color:white;
+    padding: 5% 18% 5% 18%;
+    line-height: 1.3;
+    font-family:sans-serif;
+}
+
+p{
+    color:#343534;
+    font-size: 100%;
+}
+b, h1, h2, h3, h4, h5, h6{
+    color:#284328;
+}
+
+a{
+    text-decoration:none;
+    color:#559a55;
+}
+a:hover{
+    color:#366136;
+    /*font-size: 101%;*/
+}
+
+
+/*#colorbox {
+  border-style:solid;
+  background-color:#E0e0e0;
+  border-width:0px;
+  border-color:#343535;
+  border-radius:5px;
+  padding:50px;
+}*/
+
 
