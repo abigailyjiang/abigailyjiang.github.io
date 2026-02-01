@@ -46,3 +46,39 @@ a:hover{
 }*/
 
 
+
+/* columns for photo gallery */
+.column{
+    float:left;
+    width:25%;
+    padding:0.5%;
+    box-sizing:border-box;
+}
+
+/* make the entire image area a clickable link */
+.column a{
+    display:block;
+    text-decoration:none;
+}
+
+/* ensure all photos share the same width and preserve aspect ratio */
+.column a img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+/* helper to clear floated columns when wrapping them in a .row */
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* responsive: 2 cols on medium screens, 1 col on small screens */
+@media (max-width:800px){
+    .column{ width:50%; }
+}
+@media (max-width:480px){
+    .column{ width:100%; }
+}
